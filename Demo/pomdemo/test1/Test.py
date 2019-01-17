@@ -38,7 +38,7 @@ class Login(unittest.TestCase):
     def tearDownClass(cls):
         cls.driver.close()
         cls.driver.quit()
-        print ("Test completed")
+        print ("Test completed...")
         
 if __name__ == "__main__":
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="../pomdemo/reports"))
